@@ -1,0 +1,319 @@
+@media screen and (max-width: 1199px) {
+  .banner-section .banner .banner-content h2 {
+    font-size: 22px;
+  }
+  .deals-section .deal-content .deal-heading h2 {
+    font-size: 34px;
+  }
+  .deals-section .deal-content .price-title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .mobilenone {
+    display: none;
+  }
+  .header-top .right-info .user-info {
+    display: flex;
+    justify-content: center;
+  }
+  .header-center {
+    display: none;
+  }
+  .header-nav {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .mobile_search_widget {
+    right: 0;
+    left: auto;
+    position: absolute;
+    top: 32px;
+    z-index: 99;
+  }
+  .spacer {
+    margin-bottom: 50px;
+  }
+  .mobile_search_widget .search_widget input {
+    min-width: 230px;
+  }
+  .slider-section .slider-content .sub-title {
+    font-size: 34px;
+  }
+  .slider-section .slider-content .title {
+    font-size: 54px;
+  }
+  .slider-section .slider-content .desc {
+    font-size: 16px;
+  }
+  .service-inner {
+    margin-bottom: 20px;
+  }
+  .heading-title span {
+    font-size: 24px;
+  }
+  .footer-section
+    .footer-top
+    .footer_newsletter_widget
+    .newsletter_widget
+    form {
+    max-width: 290px;
+    margin: 0 auto;
+  }
+  .footer-section
+    .footer-top
+    .footer_newsletter_widget
+    .newsletter_widget
+    form
+    input {
+    min-width: 290px;
+  }
+  .footer-top .newsletter {
+    flex-direction: column;
+  }
+  .footer-social {
+    margin-top: 15px;
+  }
+  .footer-center .footer-contact {
+    margin-bottom: 15px;
+  }
+  .footer-center .footer-block .footer-block-title {
+    margin: 5px 0;
+  }
+  .pagination {
+    margin: 15px 0 15px;
+  }
+  .checkout-details,
+  .succuss-details {
+    padding-top: 20px;
+  }
+  .more-cat-inner {
+    margin-bottom: 10px;
+  }
+  #wrapper.user-wrapper {
+    padding: 40px 0;
+  }
+  table#product_comparison tbody tr td.product-block {
+    padding: 10px;
+  }
+  .about .about-intro-section .about-intro .intro-details .main-title {
+    font-size: 26px;
+  }
+  .about .about-intro-section .about-intro {
+    margin-bottom: 30px;
+  }
+  .brand-available-section .brand-available .brand-box {
+    margin-bottom: 24px;
+  }
+  .brand-available-section .brand-available .brand-box:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mobilenone {
+    display: none;
+  }
+  .spacer {
+    margin-bottom: 30px;
+  }
+  .slider-section .slider-content .sub-title {
+    font-size: 20px;
+  }
+  .slider-section .slider-content .title {
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+  .slider-section .slider-content .desc {
+    display: none;
+  }
+  .service-section .service-inner:last-child {
+    margin-bottom: 0;
+  }
+  .banner-section .banner-inner {
+    margin-bottom: 15px;
+  }
+  .banner-section .banner-inner:last-child {
+    margin-bottom: 0;
+  }
+  .heading-title {
+    margin-bottom: 20px;
+  }
+  .heading-title span {
+    font-size: 20px;
+  }
+  .footer-section .footer-center {
+    padding: 30px 0;
+  }
+  .products .product-miniature {
+    padding-left: calc(10px / 2);
+    padding-right: calc(10px / 2);
+    margin-bottom: 10px;
+  }
+  #Products #product-topbar .products-selection .view-switcher {
+    display: none;
+  }
+  .product-content {
+    margin-top: 20px;
+  }
+  .product .review-section {
+    margin: 10px 0;
+  }
+  .product .review-section #review-form .review-name,
+  .product .review-section #review-form .review-email {
+    float: none;
+    width: 100%;
+  }
+  .cart-table-responsive,
+  .wishlist-table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+  }
+  .cart-btn {
+    display: block;
+  }
+  .cart-btn .btn {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .deals-section {
+    padding: 50px 0;
+  }
+  .deals-section .deal-content {
+    margin-bottom: 20px;
+  }
+  .deals-section .deal-content .deal-heading h2 {
+    font-size: 28px;
+  }
+  .deals-section .deal-content .price-title {
+    font-size: 26px;
+  }
+  .checkout .checkout-btn {
+    flex-direction: column;
+  }
+  .checkout .checkout-btn a:first-child {
+    margin-bottom: 5px;
+  }
+  .order-btn {
+    flex-direction: column;
+  }
+  .user-link {
+    flex-direction: column;
+  }
+  .user-link a {
+    margin-bottom: 10px;
+  }
+  .user-link a:last-child {
+    margin-bottom: 0;
+  }
+  #product_comparison td.td_empty {
+    width: 100% !important;
+    clear: both;
+  }
+  #product_comparison td.feature-name {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  #product_comparison td {
+    border: 0;
+    position: relative;
+    white-space: normal;
+    float: left;
+    width: 33.33%;
+  }
+  .custom-btn {
+    font-size: 14px;
+    padding: 7px 15px;
+  }
+  .about .about-intro-section .intro-details {
+    margin-top: 24px;
+  }
+  .about .about-intro-section .about-intro .intro-details .main-title {
+    font-size: 24px;
+  }
+  .about .about-intro-section .about-intro {
+    margin-bottom: 24px;
+  }
+  .about .about-service-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .sub-heading {
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+  .map-details {
+    margin-bottom: 40px;
+  }
+  .contact-section .contact-details .contact-details-inner .contact-box {
+    padding: 15px;
+  }
+  .contact-section
+    .contact-details
+    .contact-details-inner
+    .contact-box
+    .contact-content
+    p
+    br {
+    display: none;
+  }
+  .heading-title::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #product_comparison td {
+    text-align: center;
+  }
+  .mobilenone {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .checkout-details,
+  .succuss-details {
+    border-right: 1px solid #dee2e6;
+  }
+  .checkout-details,
+  .product-details,
+  .succuss-details {
+    padding: 40px 40px 0px;
+  }
+  .search-section {
+    padding: 100px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service-section .service-inner:nth-child(3),
+  .service-section .service-inner:nth-child(4) {
+    margin-bottom: 0;
+  }
+  .mobilenone {
+    display: none;
+  }
+}
+
+/* center header end */
+/* Header nav bootom start */
+.header-menu .navbar {
+  padding: 0;
+}
+.header-menu .navbar .navbar-nav .nav-link {
+  color: var(--thm-balck);
+  margin: 0 5px;
+}
+.header-menu .navbar .navbar-nav .nav-link:hover {
+  color: var(--thm-base);
+}
+
+.header-menu .navbar .navbar-nav .nav-link.active {
+  color: var(--thm-base);
+}
